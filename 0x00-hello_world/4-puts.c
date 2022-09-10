@@ -2,22 +2,22 @@
 
 
 
-/**
+/* *
  *
- *  * main - print the string in the put function
+ *  * main - Entry point
  *
  *   *
  *
- *    * Return: Always 0 (Successful)
+ *    * Return: Always 0 (Success)
  *
  *     */
 
-init main(void)
+int main(void)
 
 {
 
-		puts("\"Programming is like building a multilingual puzzle");
+		printf("with proper grammar, but the outcome is a piece of art,\n");
 
-			return(0);
+			return (0);
 
 }
