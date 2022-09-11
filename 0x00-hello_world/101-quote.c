@@ -1,48 +1,12 @@
-
-#include <stdio.h>
-
-
-
+#include <unistd.h>
 /**
-
-* main - print the string in the put function
-
-*
-
-* Description: using the main function
-
-* this program prints "Programming is like building a multilingual puzzle
-
-* Return: 0
-
-*/
-
+ * main - Entry Point
+ *
+ * Return: Always 1 [Success]
+ */
 int main(void)
-
 {
-
-char c;
-
-int i;
-
-long li;
-
-long long lli;
-
-float f;
-
-
-
-printf("Size of a char: %ld byte(s)\n", sizeof(c));
-
-printf("Size of an int: %ld byte(s)\n", sizeof(i));
-
-printf("Size of a long int: %ld byte(s)\n", sizeof(li));
-
-printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
-
-printf("Size of a float: %ld byte(s)\n", sizeof(f));
-
-return (0);
-
+	char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(2, str1, 59);
+	return (1);
 }
