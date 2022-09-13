@@ -16,3 +16,4 @@ Write a program that prints all possible different combinations of two digits.
  2 files changed, 30 insertions(+)
  create mode 100755 0x01-variables_if_else_while/100-print_comb3.c
 Write a program that prints all possible different combinations of three digits.
+Write a program that prints all possible combinations of two two-digit numbers.
