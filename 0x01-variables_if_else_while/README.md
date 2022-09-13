@@ -12,3 +12,6 @@ Write a program that prints the lowercase alphabet in reverse, followed by a new
 
 Write a program that prints all possible combinations of single-digit numbers.
 Write a program that prints all possible different combinations of two digits.
+[master 553498a] 10. Inventing is a combination of brains and materials.
+ 2 files changed, 30 insertions(+)
+ create mode 100755 0x01-variables_if_else_while/100-print_comb3.c
