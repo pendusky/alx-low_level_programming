@@ -1,25 +1,22 @@
 #include <stdio.h>
 /**
- * ain - prints out first 50
- * fibonacci suit numbers
- * Return: return 0
+ * main - printing out the sum of all multiples of 3 or 5 below 1024.
+ * Return: The value will return 0.
  */
+
 int main(void)
 {
-	int inc;
-	unsigned long n1 = 0, n2 = 1, n3;
-	for (inc = 0; inc < 50; inc++)
+	int i, n;
+
+	i = 0;
+	while (i < 1024)
 	{
-		n3 = n1 + n2;
-		printf("%lu", n3);
-		n1 = n2;
-		n2 = n3;
-
-		if (inc == 49)
-			printf("\n");
-		else
-			printf(", ");
+		if (i % 3 == 0 || i % 5 == 0)
+		{
+			n = n + i;
+		}
+		i++;
 	}
-
+	printf("%d\n", n);
 	return (0);
 }
