@@ -10,9 +10,7 @@
 char *_strdup(char *str)
 
 {
-
-        unsigned int i;
-
+	unsigned int i;
         int count = 0;
 
         char *dest;
@@ -54,4 +52,3 @@ char *_strdup(char *str)
         return (dest);
 
 }
-
