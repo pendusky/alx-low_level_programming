@@ -2,7 +2,6 @@
 #define DOG_H
 
 
-
 /**
  * struct dog - Struct dog
  * @name: name
@@ -10,7 +9,6 @@
  * @owner:  owner
  * Description: This struct is for dog
  */
-
 
 
 struct dog
@@ -33,5 +31,8 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
 
+
 #endif /*DOG_H*/
+
+
 
