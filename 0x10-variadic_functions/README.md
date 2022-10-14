@@ -1,16 +1,26 @@
-0x10. C - Variadic functions
+0x0F. C - Function pointers
 
 C
 
- By: Julien Barbier
+ By: Alexandre Gautier
 
  Weight: 1
 
- Project will start Oct 13, 2022 6:00 AM, must end by Oct 14, 2022 6:00 AM
-
- was released at Oct 13, 2022 12:00 PM
+ Ongoing second chance project - started Oct 12, 2022 6:00 AM, must end by Oct 15, 2022 6:00 AM
 
  An auto review will be launched at the deadline
+
+In a nutshell…
+
+Auto QA review: 0.0/39 mandatory & 0.0/7 optional
+
+Altogether:  0.0%
+
+Mandatory: 0.0%
+
+Optional: 0.0%
+
+Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
 
 Resources
 
@@ -18,17 +28,15 @@ Read or watch:
 
 
 
-stdarg.h
+Function Pointer in C
 
-Variadic Functions
+Pointers to functions
 
-Const Keyword
+Function Pointers in C / C++
 
-man or help:
+why pointers to functions?
 
-
-
-stdarg
+Everything you need to know about pointers in C
 
 Learning Objectives
 
@@ -38,11 +46,11 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 General
 
-What are variadic functions
+What are function pointers and how to use them
 
-How to use va_start, va_arg and va_end macros
+What does a function pointer exactly hold
 
-Why and how to use the const type qualifier
+Where does a function pointer point to in the virtual memory
 
 Copyright - Plagiarism
 
@@ -74,17 +82,14 @@ No more than 5 functions per file
 
 The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
 
-You are allowed to use the following macros: va_start, va_arg and va_end
-
 You are allowed to use _putchar
 
 You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
 
 In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
 
-The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called variadic_functions.h
+The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called function_pointers.h
 
 Don’t forget to push your header file
 
 All your header files should be include guarded
-
