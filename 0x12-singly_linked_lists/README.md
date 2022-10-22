@@ -1,4 +1,4 @@
-0x12. C - Singly linked lists
+0x12. C - Singly linked lists
 
 C
 
@@ -10,11 +10,21 @@ Data structure
 
  Weight: 1
 
- Project will start Oct 20, 2022 6:00 AM, must end by Oct 21, 2022 6:00 AM
-
- was released at Oct 20, 2022 12:00 PM
+ Ongoing second chance project - started Oct 20, 2022 6:00 AM, must end by Oct 22, 2022 6:00 AM
 
  An auto review will be launched at the deadline
+
+In a nutshell…
+
+Auto QA review: 0.0/43 mandatory & 0.0/12 optional
+
+Altogether:  0.0%
+
+Mandatory: 0.0%
+
+Optional: 0.0%
+
+Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
 
 Concepts
 
@@ -91,4 +101,38 @@ In the following examples, the main.c files are shown as examples. You can use t
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called lists.h
 
 Don’t forget to push your header file
+
+All your header files should be include guarded
+
+More Info
+
+Please use this data structure for this project:
+
+
+
+/**
+
+ * struct list_s - singly linked list
+
+ * @str: string - (malloc'ed string)
+
+ * @len: length of the string
+
+ * @next: points to the next node
+
+ *
+
+ * Description: singly linked list node structure
+
+ */
+
+typedef struct list_s
+
+{
+
+    char *str;
+
+    unsigned int len;
+
+    struct list_s *next;
 
