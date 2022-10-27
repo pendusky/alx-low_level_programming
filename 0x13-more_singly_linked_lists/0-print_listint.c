@@ -1,17 +1,22 @@
 #include "lists.h"
 
 /**
- * print_listint - prints all the elements of a list.
- * @h: head of a list.
- *
- * Return: numbers of nodes.
+ * print_listint - Entry Point
+ * @h: head
+ * Return: 0
  */
 
 size_t print_listint(const listint_t *h)
 
 {
 
-	size_t nnodes = 0;
+	int count = 0;
+
+
+
+	if (h == NULL)
+
+		return (0);
 
 
 
@@ -23,10 +28,12 @@ size_t print_listint(const listint_t *h)
 
 		h = h->next;
 
-		nnodes++;
+		count++;
 
 	}
 
-	return (nnodes);
+
+
+	return (count);
 
 }
